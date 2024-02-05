@@ -94,7 +94,7 @@ bank_account.create_account() #creates account
 print(bank_account.get_user_info())
 print(bank_account.update_balance(50, "deposit"))
 print(data)
-#print(bank_account.get_user_info())
+#print(bank_account.get_user_info()) debugging some stuff here, not really necessary
 bank_account.close_and_update_file()
 
 
